@@ -1,11 +1,26 @@
+body {
+    background-image: url("./images/bg-pattern.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("./images/pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .switch {
     position: relative;
@@ -80,4 +95,4 @@ input:checked + .slider:before {
     border: 0;
     background: url('contrasticon.png');
     cursor: pointer;
-  }
+}
